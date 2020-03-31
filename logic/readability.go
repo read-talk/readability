@@ -3,7 +3,7 @@ package readability
 import (
 	"fmt"
 	"github.com/PuerkitoBio/goquery"
-	"github.com/custer-go/readability/util"
+	"github.com/read-talk/readability/util"
 	nurl "net/url"
 	"strings"
 	"time"

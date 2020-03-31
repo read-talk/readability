@@ -3,8 +3,9 @@ package main
 import (
 	"flag"
 	"fmt"
-	readability "github.com/custer-go/readability/logic"
 	"time"
+
+	readability "github.com/read-talk/readability/logic"
 )
 
 var url string
@@ -17,7 +18,7 @@ func main() {
 	flag.Parse()
 	fmt.Println("url: ", url)
 	test, err := readability.NewReadability(url, 30*time.Second)
-	if err!=nil {
+	if err != nil {
 		fmt.Printf("failed test: %v\n", err)
 	}
 	test.Parse()
