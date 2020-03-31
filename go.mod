@@ -1,4 +1,4 @@
-module github.com/custer-go/readability
+module github.com/read-talk/readability
 
 go 1.14
 
